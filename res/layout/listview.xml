@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<ListView android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_alignParentBottom="true"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+		android:scrollbars="vertical" android:scrollbarStyle="insideInset"
+		android:saveEnabled="true" android:background="#e0000010" android:stackFromBottom="false" android:layout_weight="1"/>
+
+	<TextView android:id="@+id/android:empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:gravity="center" android:background="@drawable/globe" android:textStyle="bold" android:text="Thank you, records are being downloaded. You may wait, or exit (you will be notified when a record comes in), or Press Menu for more options." android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3.5" android:shadowColor="#FFFF90" android:textColor="#000030" android:textSize="24px"/>
+		
+    
+</LinearLayout>

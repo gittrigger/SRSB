@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="#FFFFFF" android:id="@+id/browser">
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/browser_title" android:text="Title" android:textSize="18px" android:textColor="#000000" android:background="#FFFFFF" android:paddingLeft="5px" android:paddingRight="3px" android:paddingTop="10px" android:visibility="gone"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/browser_date" android:text="Date" android:textSize="12px" android:textColor="#000000" android:background="#FFFFFF" android:paddingRight="3px" android:paddingLeft="5px" android:paddingBottom="10px" android:visibility="gone"></TextView>
+
+<WebView android:id="@+id/browser_viewer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+    
+ 
+
+</LinearLayout>
